@@ -43,6 +43,17 @@ body {
   text-align: center;
 }
 
+.showmore-link {
+  display: block;
+  width: 225px;
+  margin: 0 auto;
+  padding: 13px;
+  background-color: #151515;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -81,6 +92,10 @@ body {
 .menu__list-link {
   color: #fff;
   text-transform: uppercase;
+}
+
+.menu__list-link_active {
+  color: #0066ff;
 }
 
 .footer {
@@ -408,13 +423,77 @@ body {
   color: #fff;
 }
 
-.blog__link {
-  display: block;
-  width: 225px;
-  margin: 0 auto;
-  padding: 13px;
-  background-color: #151515;
-  color: #fff;
-  text-transform: uppercase;
+.choose {
+  padding: 100px 0 150px;
+}
+
+.tabs {
+  margin-bottom: 70px;
+}
+
+.tabs__btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px 100px;
+}
+
+.tabs__btns-item {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tabs__btns-item_active {
+  color: #0066ff;
+}
+
+.tabs__content-item {
+  display: none;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 40px;
+}
+
+.tabs__content-item_active {
+  display: grid;
+}
+
+.card {
   text-align: center;
+}
+
+.card__img {
+  display: block;
+}
+
+.card__content {
+  padding: 0 5px;
+  border: 1px solid #0066ff;
+  border-top: none;
+}
+
+.card__title {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card__text {
+  margin-bottom: 20px;
+}
+
+.card__price {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card__link {
+  display: block;
+  border: 1px solid #0066ff;
+  border-top: none;
+  color: #0066ff;
 }
