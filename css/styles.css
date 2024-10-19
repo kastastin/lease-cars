@@ -36,6 +36,12 @@ body {
   padding: 0 10px;
 }
 
+.section-title {
+  margin-bottom: 50px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -170,4 +176,29 @@ body {
 .swiper-pagination-bullet-active {
   height: 6px;
   background-color: #fff;
+}
+
+.why {
+  padding: 150px 0;
+}
+
+.why__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.why__item-img {
+  margin-bottom: 30px;
+}
+
+.why__item-title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.why__item-text {
+  text-align: left;
 }
