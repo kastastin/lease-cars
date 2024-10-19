@@ -257,3 +257,23 @@ body {
   font-size: 48px;
   font-weight: 700;
 }
+
+.welcome {
+  padding-bottom: 150px;
+}
+
+.welcome__title {
+  margin-bottom: 20px;
+}
+
+.welcome__text {
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.welcome__video {
+  display: block;
+  margin: 0 auto;
+}
