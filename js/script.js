@@ -22,6 +22,15 @@ tabsBtns.forEach((btn) => {
   });
 });
 
+const menuBtn = document.querySelector(".menu__btn");
+const menuList = document.querySelector(".menu__list");
+
+menuBtn.addEventListener("click", () => {
+  console.log(1);
+  menuList.classList.toggle("menu__list_active");
+  document.body.classList.toggle("no-scroll");
+});
+
 const swiper = new Swiper(".swiper", {
   loop: true,
   effect: "fade",

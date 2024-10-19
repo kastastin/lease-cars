@@ -54,6 +54,10 @@ body {
   text-align: center;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -82,6 +86,24 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   padding: 40px 0 45px;
+}
+
+.menu__btn {
+  display: none;
+  width: 30px;
+  height: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu__btn span {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
 }
 
 .menu__list {
@@ -380,6 +402,7 @@ body {
 .form__btn {
   margin: 0 auto;
   padding: 13px 61px;
+  border: none;
   background-color: #151515;
   font-family: "Inter", sans-serif;
   color: #fff;
@@ -466,6 +489,7 @@ body {
 
 .card__img {
   display: block;
+  width: 100%;
 }
 
 .card__content {
